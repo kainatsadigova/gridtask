@@ -1,0 +1,70 @@
+.container div {
+    border: 1px solid rgb(255, 255, 255);
+    text-align: center;
+    padding: 50px 0;
+    font-size: 30px;
+}
+
+.container :nth-child(1) {
+    background-color: deeppink;
+}
+
+.container :nth-child(2) {
+    background-color: fuchsia;
+}
+
+.container :nth-child(3) {
+    background-color: coral;
+}
+
+.container :nth-child(4) {
+    background-color: gold;
+}
+
+.container :nth-child(5) {
+    background-color: green;
+}
+
+.container :nth-child(6) {
+    background-color: cadetblue;
+}
+
+.container :nth-child(7) {
+    background-color: limegreen;
+}
+
+.container :nth-child(8) {
+    background-color: mediumseagreen;
+}
+
+.container :nth-child(9) {
+    background-color: aqua;
+}
+
+.container :nth-child(10) {
+    background-color: aquamarine;
+}
+
+.container :nth-child(11) {
+    background-color: darkorchid;
+}
+
+.container :nth-child(12) {
+    background-color: crimson;
+}
+
+.container {
+    width: 100%;
+    color: rgb(0, 0, 0);
+    height: 500px;
+    display: grid;
+    grid-template-areas:
+        'bir bir  iki iki iki üç üç üç üç dörd dörd'
+        'beş beş  iki iki iki üç üç üç üç alti alti'
+        'yeddi  yeddi sekkiz doqquz doqquz üç üç üç üç on on'
+        'onbir onbir onbir onbir onbir üç üç üç üç oniki oniki';
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    gap: 1px;
+}
